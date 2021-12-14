@@ -4,7 +4,7 @@ const pool = mysql.createPool({
     connectionLimit: 10,
     host: 'localhost',
     user: 'root',
-    password: '25011999',
+    password: '',  // insira sua senha do MySQL aqui
     database: 'nodemysql2',
 })
 
